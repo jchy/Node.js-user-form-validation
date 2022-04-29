@@ -10,6 +10,7 @@ const getAllUsers = async(req, res)=>{
         }
 }
 
+// creating new users in user collection of database named: mydb
 const createNewUser = async (req, res) => {
     try{
         const errors = validationResult(req);
